@@ -28,7 +28,7 @@ and even then, I bet there's some corner cases that will trip you up.
 
 ### Programs
 
-* `mkam` - generate one of two different byte-level encodings of "Améle"
+* `mkam` - generate one of two different byte-level encodings of "Amélie"
    1. `mkam  0 > amelie0` gets you the 8-byte version
    2. `mkam  1 > amelie1` gets you the 7-byte version
 * `v1` and `v2` illustrate two ways to reverse the array of runes
