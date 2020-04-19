@@ -48,6 +48,7 @@ $ ./v1 $(cat amelie0)
 ```
 
 Ha ha ha! Naive rune-reversal moves the accent from the "e" to the "l".
+But not always:
 
 ```go
 $ ./v1 $(cat amelie1)
@@ -79,3 +80,9 @@ NFC normalizing the string before rune-array-reversing works.
 But there are certainly cases where you'd want to use NFD normalizing.
 
 This ends up being a really hard problem.
+If you ask it in an interview,
+you should probably have an expected answer based on the level
+of experience you're hiring for.
+You should be prepared for a lengthy discourse if you interview
+someone who's well-acquainted with Unicode.
+You might get a really unique solution once in a while.
