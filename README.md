@@ -79,7 +79,10 @@ NFD normalized:
 NFC normalizing the string before rune-array-reversing works.
 But there are certainly cases where you'd want to use NFD normalizing.
 
-This ends up being a really hard problem.
+This ends up being a subtle problem,
+because it depends on knowing Unicode,
+particulars of UTF-8 encoding,
+and some small knowledge of Go.
 If you ask it in an interview,
 you should probably have an expected answer based on the level
 of experience you're hiring for.
