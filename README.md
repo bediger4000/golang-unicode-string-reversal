@@ -23,7 +23,7 @@ at least visually and officially,
 but if you reverse the rune order of "\u0065\u0301" inside a string,
 you get the wrong thing reversed.
 
-You have to [normalize]() the UTF-8 string before reversing,
+You have to [normalize](https://blog.golang.org/normalization) the UTF-8 string before reversing,
 and even then, I bet there's some corner cases that will trip you up.
 
 ### Programs
