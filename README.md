@@ -74,7 +74,7 @@ NFC normalized:
 NFD normalized:
 "Amélie"
 "eiĺemA"
-``
+```
 
 NFC normalizing the string before rune-array-reversing works.
 But there are certainly cases where you'd want to use NFD normalizing.
