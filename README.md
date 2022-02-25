@@ -21,10 +21,12 @@ both visually and officially.
 
 at least visually and officially,
 but if you reverse the rune order of "\u0065\u0301" inside a string,
-you get the wrong thing reversed.
+you get the wrong thing.
 
 You have to [normalize](https://blog.golang.org/normalization) the UTF-8 string before reversing,
 and even then, I bet there's some corner cases that will trip you up.
+The interviewer may have other things in mind:
+[normalizing](http://www.unicode.org/reports/tr15/) describes peculiarities.
 
 ### Programs
 
@@ -89,3 +91,4 @@ of experience you're hiring for.
 You should be prepared for a lengthy discourse if you interview
 someone who's well-acquainted with Unicode.
 You might get a really unique solution once in a while.
+The interviewer should understand [Unicode normalization](http://www.unicode.org/reports/tr15/#Normalization_Forms_Table)
