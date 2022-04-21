@@ -92,3 +92,9 @@ You should be prepared for a lengthy discourse if you interview
 someone who's well-acquainted with Unicode.
 You might get a really unique solution once in a while.
 The interviewer should understand [Unicode normalization](http://www.unicode.org/reports/tr15/#Normalization_Forms_Table)
+
+## Around the web
+
+[Here's an example](https://www.geeksforgeeks.org/how-to-reverse-a-string-in-golang/?ref=lbp)
+that doesn't do normalization.
+This seems like a facile example.
